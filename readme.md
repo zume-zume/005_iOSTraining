@@ -4,6 +4,15 @@
 ### 変数と定数
 ver 変数の宣言  
 let 定数の宣言   
+  
+### objectiveCとの連携
+```ObjcClass.h
+#import <Foundation/Foundation.h>
+@interface ObjcCalss : NSObject
+@property(nonatomic, strong) SNString *name;
+- (void)printName;
+@end
+```
 
 ## 初期設定的なこと
 ### .mdファイルの識別
