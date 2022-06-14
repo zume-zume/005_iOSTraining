@@ -6,7 +6,8 @@ ver 変数の宣言
 let 定数の宣言   
   
 ### objectiveCとの連携
-```ObjcClass.h
+**ObjcClass.h**  
+```
 #import <Foundation/Foundation.h>
 @interface ObjcCalss : NSObject
 @property(nonatomic, strong) SNString *name;
