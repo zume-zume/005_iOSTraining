@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A97FECD52854CA440030F92C /* testAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FECD42854CA440030F92C /* testAppApp.swift */; };
+		A97FECD52854CA440030F92C /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FECD42854CA440030F92C /* testApp.swift */; };
 		A97FECD72854CA440030F92C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FECD62854CA440030F92C /* ContentView.swift */; };
 		A97FECD92854CA450030F92C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97FECD82854CA450030F92C /* Assets.xcassets */; };
 		A97FECDC2854CA450030F92C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97FECDB2854CA450030F92C /* Preview Assets.xcassets */; };
@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		A97FECD12854CA440030F92C /* testApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A97FECD42854CA440030F92C /* testAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppApp.swift; sourceTree = "<group>"; };
+		A97FECD42854CA440030F92C /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
 		A97FECD62854CA440030F92C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A97FECD82854CA450030F92C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A97FECDB2854CA450030F92C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		A97FECD32854CA440030F92C /* testApp */ = {
 			isa = PBXGroup;
 			children = (
-				A97FECD42854CA440030F92C /* testAppApp.swift */,
+				A97FECD42854CA440030F92C /* testApp.swift */,
 				A97FECD62854CA440030F92C /* ContentView.swift */,
 				A97FECD82854CA450030F92C /* Assets.xcassets */,
 				A97FECDA2854CA450030F92C /* Preview Content */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A97FECD72854CA440030F92C /* ContentView.swift in Sources */,
-				A97FECD52854CA440030F92C /* testAppApp.swift in Sources */,
+				A97FECD52854CA440030F92C /* testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

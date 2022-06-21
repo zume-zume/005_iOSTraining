@@ -45,15 +45,21 @@ let objcClass = ObjcClass()
 objcClass.name = "Yamada Hanatarou"
 objcClass.printName()
 ```
-
+  
+### 関数の呼び出し
+**呼び出す式**
+```
+関数名(引数名1: 引数1, 引数名2: 引数2...)
+```
+  
+### Xcodeでのコミット&プッシュ
+ツールバー > Source Control > Commit  
+から、コミットしたい任意のファイルを選択して、コミットメッセージを入力してCommit  
+  
+その後、Pushする。（リモート上の変更が取り込まれていないよ〜のメッセージが出たら、Pullしてあげる）
+  
 ## 初期設定的なこと
 ### .mdファイルの識別
 .mdファイルにmarkdownを適用するには、xcodeproj配下に、  
 xcodesamplecode.plistというファイルを作っておかなければならないらしい。  
 ファイルを置いてさえすればよくて、空でもいいらしい。  
-  
-### コミット&プッシュ
-ツールバー > Source Control > Commit  
-から、コミットしたい任意のファイルを選択して、コミットメッセージを入力してCommit  
-  
-その後、Pushする。（リモート上の変更が取り込まれていないよ〜のメッセージが出たら、Pullしてあげる）
