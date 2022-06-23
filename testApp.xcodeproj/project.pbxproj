@@ -15,6 +15,7 @@
 		A97FECF02854CA450030F92C /* testAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FECEF2854CA450030F92C /* testAppUITests.swift */; };
 		A97FECF22854CA450030F92C /* testAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FECF12854CA450030F92C /* testAppUITestsLaunchTests.swift */; };
 		A9A0D4F128634FF7006BA619 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A0D4F028634FF7006BA619 /* CircleImage.swift */; };
+		A9C52F572864A628003BDC0D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C52F562864A613003BDC0D /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A97FECF12854CA450030F92C /* testAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A9A0D4F028634FF7006BA619 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		A9AEE2282857792D0050EF3C /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		A9C52F562864A613003BDC0D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		A97FECD32854CA440030F92C /* testApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9C52F562864A613003BDC0D /* MapView.swift */,
 				A97FECD42854CA440030F92C /* testApp.swift */,
 				A97FECD62854CA440030F92C /* ContentView.swift */,
 				A9A0D4F028634FF7006BA619 /* CircleImage.swift */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A97FECD72854CA440030F92C /* ContentView.swift in Sources */,
+				A9C52F572864A628003BDC0D /* MapView.swift in Sources */,
 				A97FECD52854CA440030F92C /* testApp.swift in Sources */,
 				A9A0D4F128634FF7006BA619 /* CircleImage.swift in Sources */,
 			);
