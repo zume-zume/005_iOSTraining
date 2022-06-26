@@ -103,3 +103,5 @@ objcClass.printName()
 .mdファイルにmarkdownを適用するには、xcodeproj配下に、  
 xcodesamplecode.plistというファイルを作っておかなければならないらしい。  
 ファイルを置いてさえすればよくて、空でもいいらしい。  
+
+
