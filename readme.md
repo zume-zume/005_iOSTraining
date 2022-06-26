@@ -10,12 +10,16 @@ Editor > CanvasでCanvas（プレビュー）を表示させることができ�
 コード又はプレビューの任意の場所でCmd + click  
 プレビュから動的に文字のフォントや色を設定することができる。
 
-### H・V・ZStack
+### View(ビュー)
+勉強になるページ↓  
+[SwiftUIのビュー要素集](https://qiita.com/MaShunzhe/items/1375be076e1734e1cc42)  
+
+#### H・V・ZStack
 - HStack:水平方向に子Viewを配置
 - VStack:垂直方向に子Viewを配置
 - ZStack:親Viewと子Viewを重ねることができる
   
-### spacer（スパーサー）
+#### spacer（スパーサー）
 子Viewが、親Viewが持つスペースの全てを利用するように拡張する。
 
 ### Assets（アセット）
@@ -34,7 +38,7 @@ swiftファイルから画像を読み込むことができる。
 ※余談：ベクター画像は解像度に依存しない（拡大縮小してもボケない）画像  
 ラスター画像は解像度に依存する（拡大縮小するとボケちゃう）画像のこと  
   
-### Devider（ディバイダー）
+#### Devider（ディバイダー）
 区切り線を引ける  
 
 ### 
@@ -105,3 +109,6 @@ xcodesamplecode.plistというファイルを作っておかなければなら�
 ファイルを置いてさえすればよくて、空でもいいらしい。  
 
 
+## 参考ページ集
+[swiftUI Tutorials](https://developer.apple.com/tutorials/swiftui)
+[swift 100本ノック](https://qiita.com/takoikatakotako/items/0838d1bb7a15ad1edb87)
