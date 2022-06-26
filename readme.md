@@ -1,24 +1,24 @@
 # ReadMe
 
-##swiftUI
+## swiftUI
   
-###プレビューの表示
+### プレビューの表示
 Editor > CanvasでCanvas（プレビュー）を表示させることができる。
 ※右上の三みたいなところからも起動できる。  
   
-###Swift Inspector
+### Swift Inspector
 コード又はプレビューの任意の場所でCmd + click  
 プレビュから動的に文字のフォントや色を設定することができる。
 
-###H・V・ZStack
+### H・V・ZStack
 - HStack:水平方向に子Viewを配置
 - VStack:垂直方向に子Viewを配置
 - ZStack:親Viewと子Viewを重ねることができる
   
-###spacer（スパーサー）
+### spacer（スパーサー）
 子Viewが、親Viewが持つスペースの全てを利用するように拡張する。
 
-###Assets（アセット）
+### Assets（アセット）
 画像はAssets.xcassetsで管理。ここに載っけている名前をswiftファイルで指定することで、  
 swiftファイルから画像を読み込むことができる。  
 .clipShape(Circle())で丸くしたり、四角で表示したり影つけたり色々できる。  
@@ -34,10 +34,10 @@ swiftファイルから画像を読み込むことができる。
 ※余談：ベクター画像は解像度に依存しない（拡大縮小してもボケない）画像  
 ラスター画像は解像度に依存する（拡大縮小するとボケちゃう）画像のこと  
   
-###Devider（ディバイダー）
+### Devider（ディバイダー）
 区切り線を引ける  
 
-###
+### 
 
   
 ## swiftの基本的なこと
